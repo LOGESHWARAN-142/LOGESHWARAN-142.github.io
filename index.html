@@ -1,1 +1,259 @@
-hello world
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://media.istockphoto.com/photos/handloom-picture-id171135988?s=612x612" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">HANDLOOM</span> OF INDIA.</h1>
+    <p>Handloom sarees and textiles.</p>
+    <img src="https://i.pinimg.com/736x/5a/07/f4/5a07f43d298693acd358b399f4418466.jpg" alt="SAREE" class="w3-image" width="992" height="1108">
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Let's know about the handloom sarees</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Handloom saris are a traditional textile art of Bangladesh and India. The production of handloom saris are important for economic development in rural India.
+
+Completion of a single sari takes two to three days of work. Several regions have their own traditions of handloom saris. The most traditional are made in West Bengal.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">No. of handloom weavers</h3>
+    <p class="w3-wide">Uttar Pradesh</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey w3-center" style="height:28px;width:95%">95%</div>
+    </div>
+    <p class="w3-wide">Uttrakhand</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey w3-center" style="height:28px;width:85%">85%</div>
+    </div>
+    <p class="w3-wide">West Bengal</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey w3-center" style="height:28px;width:80%">80%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">8+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">5000+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1000+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">75+</span><br>
+        Countries(export)
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="https://www.firstsentierinvestors.com.au/au/en/adviser/insights/market-updates/_jcr_content/root/show_hide_container/column/column1/column_copy/70-column/image.coreimg.png/1633490261908/navy-mw-tile.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px" height="80px">
+    <p><span class="w3-large w3-margin-right">Market Watch Report.</span></p>
+    <p>Textile Market Watch Report is a comprehensive fortnightly price trend and....</p><br>
+
+    <img src="https://images-platform.99static.com//85mfdOdNIjgwz07R_xAW7QBLXtQ=/234x310:1677x1752/fit-in/500x500/99designs-contests-attachments/112/112198/attachment_112198218" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Cotton intelligence.</span></p>
+    <p>Cotton Intelligence is a special set of reports on Cotton that will keep you....</p>
+
+    <img src="https://media.istockphoto.com/vectors/report-icon-with-settings-sign-report-icon-and-customize-setup-manage-vector-id1097481494" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Customized report.</span></p>
+    <p>Custom Market Research Reports provide in-depth analysis for the entire textile ...</p>
+
+    <img src="https://image.shutterstock.com/image-vector/live-webinar-icon-logo-symbol-260nw-1779260144.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Webinar.</span></p>
+    <p>The informative Web-Based Seminars or Webinars as well all know it, are a...</p><header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-small"><b>Your Market Research Partner for Textile & Apparel sector!
+All that you need to know right from Pricing, Trade Data, Tariff & Non-Tariff Regulations, Trade Agreements, Country Profiles, Analysis of Brands & Retailers, Government Notifications, News & Articles to Events & Exhibitions. Build effective Sourcing Strategies with TexPro</b></h1>
+    <h6>Welcome to  <span class="w3-tag">handloom marketing</span></h6>
+    <!-- Image header -->
+  <header class="w3-display-container w3-wide w3-black" id="home">
+    <img class="w3-image" src="https://www.fibre2fashion.com/market-intelligence/Content/images/texpro-animation.gif" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Markettin of</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Handloom</b></h1>
+  </header>
+
+
+  <!-- End About Section -->
+  </div>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVL1FB20nIa1bYscxRbM8r21Q0jzXfy-hFVQ&usqp=CAU" style="width:100%">
+        <img src="http://cdn.shopify.com/s/files/1/2155/9601/products/DSC_9642_grande.jpg?v=1580971758" style="width:100%">
+        <img src="https://www.madhurya.com/wp-content/uploads/2019/11/58-1_5.jpg" style="width:100%">
+        <img src="https://cdn.shopify.com/s/files/1/0220/5433/8656/products/356982_20PL_1024x.jpg?v=1648903439" style="width:100%">
+        <img src="https://5.imimg.com/data5/ANDROID/Default/2022/5/NO/VD/LY/121168911/product-jpeg-250x250.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="http://cdn.shopify.com/s/files/1/1889/6923/products/green-with-sky-blue-wedding-silk-saree-gj53830-arrs-silks-33827488170153_grande.jpg?v=1631082328" style="width:100%">
+        <img src="https://cdn.shopify.com/s/files/1/0220/5433/8656/products/355308_20PL_1024x.jpg?v=1645282677" style="width:100%">
+        <img src="https://webmerx.sgp1.cdn.digitaloceanspaces.com/yoyo/product_images/1639806962.designer-light-pink-silk-saree-with-zari-work-YOYO-145-16184-6_(1).jpg" style="width:100%">
+        <img src="https://cdn.shopify.com/s/files/1/1072/7908/products/kancheepuram-silk-handloom-saree-pink-saree-fashionvibes-27989027323953_1024x1024.jpg?v=1617992238" style="width:100%">
+         <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+        <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Tamilnadu,india</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +044 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+   <a href="#" class="w3-button w3-black w3-center"><i class="fa fa-arrow-up w3-center"></i>To the top</a>
+
+    <!-- Footer -->
+
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+<script>
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+</body>
+</html>
